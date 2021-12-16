@@ -36,6 +36,10 @@ border-radius: 20px;
 .imgshow{
   display: none;
     }
+    .imgtopsc26{
+      display: none;
+        }
+    
   @media only screen and (max-width: 900px) {
     img {
         margin-top: 20px;
@@ -72,4 +76,10 @@ border-radius: 20px;
     .imgshow{
   display: block;
     }
+    .imgtopsc26{
+      display: block;
+        }
+        .sc27{
+          width: 200px;
+        }
   }
