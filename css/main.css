@@ -33,6 +33,9 @@ border-radius: 20px;
 .sc27{
     height: 50px;
 }
+.imgshow{
+  display: none;
+    }
   @media only screen and (max-width: 900px) {
     img {
         margin-top: 20px;
@@ -43,10 +46,18 @@ border-radius: 20px;
         float: none;
     }
     .sc25R{
-        float: left;
+      float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
     .sc25L{
-        float: left;
+      float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
     .mt130{
         margin-top: 20px;
@@ -54,5 +65,11 @@ border-radius: 20px;
       .sc27{
         height: 60px;
         width: 100%;
+    }
+    .imgtop{
+      display: none;
+    }
+    .imgshow{
+  display: block;
     }
   }
